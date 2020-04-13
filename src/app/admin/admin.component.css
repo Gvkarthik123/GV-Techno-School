@@ -1,0 +1,24 @@
+table,th,td{
+    border: 1px solid black;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+
+}
+ 
+a{
+    color: dodgerblue;
+    font-size: 20px;
+}
+a:hover{
+    cursor: pointer;
+    color:dodgerblue;
+}
+body{
+    background-color: gold;
+}
+h1{
+    color: indigo;
+    text-decoration: underline;
+    background-color:lavenderblush;
+}

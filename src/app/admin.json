@@ -1,0 +1,39 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "fname": "Karthik",
+      "lname": "Venkatesh",
+      "email": "karthi@gmail.com",
+      "mob": "+91-7032884158"
+    },
+    {
+      "id": 2,
+      "fname": "Nikhil",
+      "lname": "Ramana",
+      "email": "nikil@gmail.com",
+      "mob": "+91-7038894158"
+    },
+    {
+      "id": 3,
+      "fname": "Kishore",
+      "lname": "Vinayagam",
+      "email": "kishore@gmail.com",
+      "mob": "+91-9632884158"
+    },
+    {
+      "id": "4",
+      "fname": "Pariyerum",
+      "lname": "Perumal",
+      "email": "pari@gmail.com",
+      "mob": "+91-85558749738"
+    },
+    {
+      "id": "5",
+      "fname": "Bharath",
+      "lname": "K.B.",
+      "email": "kbbharath@gmail.com",
+      "mob": "+91-8555874888"
+    }
+  ]
+}

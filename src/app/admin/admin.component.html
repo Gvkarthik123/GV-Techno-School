@@ -1,0 +1,27 @@
+<a routerLink='/adminstudent'><button>Add Student</button></a>&nbsp;
+<a routerLink='/loginpage'><button>Back</button></a>&nbsp;
+<h1 align="center">
+    Students List
+  </h1>
+  <body>
+    <table align="center">
+    <th>ID</th>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Email</th>
+    <th>Mobile No</th>
+    <th></th>
+    <th></th>
+    <tr *ngFor = "let student of students">
+      <td>{{student.id}}</td>
+      <td>{{student.fname}}</td>
+      <td>{{student.lname}}</td>
+      <td>{{student.email}}</td>
+      <td>{{student.mob}}</td>
+      <td (click) = "deleteStudent(student.id)"><a>DELETE</a></td>
+      <td [routerLink] = "['/adminupdate',student.id]"><a>UPDATE</a></td>
+      </tr>
+  </table>
+</body>
+
+  

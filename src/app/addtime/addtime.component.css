@@ -1,0 +1,16 @@
+form,label,input {
+    font-size: 20px;
+    padding: 10px;
+   
+}
+input {
+    margin-top:3px;
+}
+h2{
+    color: maroon;
+    text-decoration: underline;
+}
+body{
+    color: mediumseagreen;
+    background-color: navy;
+}

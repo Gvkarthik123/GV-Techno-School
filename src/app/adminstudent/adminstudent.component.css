@@ -1,0 +1,16 @@
+form,label,input {
+    font-size: 20px;
+    padding: 10px;
+   
+}
+input {
+    margin-top:3px;
+}
+body{
+    background-color: rgb(0, 204, 255);
+}
+h1,h2{
+    color: indigo;
+    text-decoration: underline;
+    background-color:lavenderblush;
+}

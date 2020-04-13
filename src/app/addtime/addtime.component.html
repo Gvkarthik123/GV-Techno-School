@@ -1,0 +1,19 @@
+<a routerLink = "/timetable"><button>Back</button> </a>
+<h2>
+  Add New Subject
+</h2>
+<body>
+<form id = "formNewTimetable" name = "formNewTimetable" #TimetableData = "ngForm" (ngSubmit) = "addNewTimetable(TimetableData.value)">
+  <label>&nbsp;&nbsp;&nbsp;&nbsp;ID:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; </label><input type = "text" name="id" id="id" ngModel><br>
+  <label>&nbsp;&nbsp;&nbsp;&nbsp;Day:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label><input type = "text" name="day" id="day"  ngModel><br>
+  <label>&nbsp;Period 1:&nbsp;&nbsp;&nbsp; </label><input type = "text" name="period1" id="period1"  ngModel><br>
+  <label>&nbsp;Period 2:&nbsp;&nbsp;&nbsp; </label><input type = "text" name="period2" id="period2"  ngModel><br>
+  <label>&nbsp;Period 3:&nbsp;&nbsp;&nbsp; </label><input type = "text" name="period3" id="period3"  ngModel><br>
+  <label>&nbsp;Period 4:&nbsp;&nbsp;&nbsp; </label><input type = "text" name="period4" id="period4"  ngModel><br>
+  <label>&nbsp;Period 5:&nbsp;&nbsp;&nbsp; </label><input type = "text" name="period5" id="period5"  ngModel><br>
+  <label>&nbsp;Period 6:&nbsp;&nbsp;&nbsp; </label><input type = "text" name="period6" id="period6"  ngModel><br>
+  <input type="submit"  value = "Add Subject">
+</form>
+<br>
+<h3 *ngIf = "isAdded">{{confirmationString}}</h3>
+</body>
